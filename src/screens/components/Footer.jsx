@@ -35,7 +35,7 @@ const Footer = () => {
                               <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Discord</a>
                           </li>
                       </ul>
-                  </div>
+                  </div>    
                   <div>
                       <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
                       <ul class="text-gray-500 dark:text-gray-400 font-medium">
@@ -55,18 +55,22 @@ const Footer = () => {
               </span>
               <div class="flex mt-4 sm:justify-center sm:mt-0">
                 <span class="text-sm text-gray-500">Developed by Linkpii</span>
+                
+                <a href="https://wa.me/233209317581" class="text-gray-500 hover:text-green-500 dark:hover:text-white ms-5">
+                    <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 448 512">
+                        <path d="M380.9 97.1C339 55.2 283.1 32 224.8 32c-119.2 0-216 96.8-216 216 0 38.1 10 75.3 29.1 107.8L0 480l126.2-37.4c30.3 16.6 64.4 25.4 98.6 25.4h.1c119.2 0 216-96.8 216-216 0-58.3-23.2-114.2-65.1-156.9zM224.8 438.1c-27.2 0-54-7.3-77.4-21.1l-5.6-3.3-74.9 22.2 22.4-73-3.6-5.7C69.2 329.2 60.8 298.2 60.8 264c0-90.2 73.6-163.8 163.8-163.8 43.7 0 84.8 17 115.8 47.9 30.9 30.9 47.9 72 47.9 115.8 0 90.2-73.6 163.9-163.7 163.9zm94.6-123.3c-5.2-2.6-30.6-15.1-35.4-16.8-4.8-1.8-8.3-2.6-11.9 2.6-3.4 5.2-13.7 16.8-16.8 20.3-3.1 3.4-6.2 3.9-11.5 1.3-31.3-15.6-51.9-27.9-72.7-63.3-5.5-9.5 5.5-8.8 15.6-29.2 1.7-3.4.9-6.3-.4-8.9-1.3-2.6-11.9-28.7-16.3-39.3-4.3-10.3-8.7-8.9-11.9-9.1-3.1-.2-6.7-.2-10.2-.2s-9.5 1.3-14.4 6.3c-4.8 5.2-18.8 18.4-18.8 44.9 0 26.5 19.2 52.1 21.8 55.7 2.6 3.4 37.8 57.8 91.6 81 12.8 5.5 22.8 8.8 30.6 11.2 12.8 4.1 24.5 3.5 33.7 2.1 10.3-1.5 30.6-12.5 35-24.5 4.3-12 4.3-22.3 3-24.5-1.4-2.1-4.9-3.3-10.1-5.9z"/>
+                    </svg>
+                    <span class="sr-only">WhatsApp</span>
+                    </a>
+                
                   <a href="https://www.facebook.com/permalink.php/?story_fbid=480123637686313&id=100070660432401" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
                       <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
                             <path fill-rule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z" clip-rule="evenodd"/>
                         </svg>
                       <span class="sr-only">Facebook page</span>
                   </a>
-                  <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
-                      <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 21 16">
-                            <path d="M16.942 1.556a16.3 16.3 0 0 0-4.126-1.3 12.04 12.04 0 0 0-.529 1.1 15.175 15.175 0 0 0-4.573 0 11.585 11.585 0 0 0-.535-1.1 16.274 16.274 0 0 0-4.129 1.3A17.392 17.392 0 0 0 .182 13.218a15.785 15.785 0 0 0 4.963 2.521c.41-.564.773-1.16 1.084-1.785a10.63 10.63 0 0 1-1.706-.83c.143-.106.283-.217.418-.33a11.664 11.664 0 0 0 10.118 0c.137.113.277.224.418.33-.544.328-1.116.606-1.71.832a12.52 12.52 0 0 0 1.084 1.785 16.46 16.46 0 0 0 5.064-2.595 17.286 17.286 0 0 0-2.973-11.59ZM6.678 10.813a1.941 1.941 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.919 1.919 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Zm6.644 0a1.94 1.94 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.918 1.918 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Z"/>
-                        </svg>
-                      <span class="sr-only">Discord community</span>
-                  </a>
+                 
+
                   <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
                       <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 17">
                         <path fill-rule="evenodd" d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z" clip-rule="evenodd"/>
