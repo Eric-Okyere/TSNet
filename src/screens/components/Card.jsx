@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import Picc from "../../assets/Wa1.jpeg";
-import Picc1 from "../../assets/Wa2.jpeg";
+import Downpic from "../../assets/Downpic.jpeg";
+import Mypic from "../../assets/Mypic.jpeg";
 import Board from './Board';
 
 const Card = () => {
@@ -102,11 +102,11 @@ MS Office Suite education.
 
 
     <div>
-        <img src={Picc1}  className='w-full h-40' alt='picc' />
+        <img src={Mypic}  className='w-full h-40' alt='picc' />
     </div>
 <Board />
     <div>
-        <img src={Picc}  className='w-full h-40 -mt-3 -z-10' alt='picc' />
+        <img src={Downpic}  className='w-full h-40 -mt-3 -z-10' alt='picc' />
     </div>
    
     </div>

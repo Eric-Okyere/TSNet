@@ -56,14 +56,14 @@ const Footer = () => {
               <div class="flex mt-4 sm:justify-center sm:mt-0">
                 <span class="text-sm text-gray-500">Developed by Linkpii</span>
                 
-                <a href="https://wa.me/233209317581" class="text-gray-500 hover:text-green-500 dark:hover:text-white ms-5">
+                <a href="https://wa.me/233209317581" class="text-green-500 hover:text-black dark:hover:text-white ms-5">
                     <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 448 512">
                         <path d="M380.9 97.1C339 55.2 283.1 32 224.8 32c-119.2 0-216 96.8-216 216 0 38.1 10 75.3 29.1 107.8L0 480l126.2-37.4c30.3 16.6 64.4 25.4 98.6 25.4h.1c119.2 0 216-96.8 216-216 0-58.3-23.2-114.2-65.1-156.9zM224.8 438.1c-27.2 0-54-7.3-77.4-21.1l-5.6-3.3-74.9 22.2 22.4-73-3.6-5.7C69.2 329.2 60.8 298.2 60.8 264c0-90.2 73.6-163.8 163.8-163.8 43.7 0 84.8 17 115.8 47.9 30.9 30.9 47.9 72 47.9 115.8 0 90.2-73.6 163.9-163.7 163.9zm94.6-123.3c-5.2-2.6-30.6-15.1-35.4-16.8-4.8-1.8-8.3-2.6-11.9 2.6-3.4 5.2-13.7 16.8-16.8 20.3-3.1 3.4-6.2 3.9-11.5 1.3-31.3-15.6-51.9-27.9-72.7-63.3-5.5-9.5 5.5-8.8 15.6-29.2 1.7-3.4.9-6.3-.4-8.9-1.3-2.6-11.9-28.7-16.3-39.3-4.3-10.3-8.7-8.9-11.9-9.1-3.1-.2-6.7-.2-10.2-.2s-9.5 1.3-14.4 6.3c-4.8 5.2-18.8 18.4-18.8 44.9 0 26.5 19.2 52.1 21.8 55.7 2.6 3.4 37.8 57.8 91.6 81 12.8 5.5 22.8 8.8 30.6 11.2 12.8 4.1 24.5 3.5 33.7 2.1 10.3-1.5 30.6-12.5 35-24.5 4.3-12 4.3-22.3 3-24.5-1.4-2.1-4.9-3.3-10.1-5.9z"/>
                     </svg>
                     <span class="sr-only">WhatsApp</span>
                     </a>
                 
-                  <a href="https://www.facebook.com/permalink.php/?story_fbid=480123637686313&id=100070660432401" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                  <a href="https://www.facebook.com/permalink.php/?story_fbid=480123637686313&id=100070660432401" class="text-blue-500 hover:text-black dark:hover:text-white ml-4">
                       <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
                             <path fill-rule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z" clip-rule="evenodd"/>
                         </svg>

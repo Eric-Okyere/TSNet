@@ -5,14 +5,14 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false)
 
   return (
-    <nav className="bg-blue-500 border-gray-200 dark:bg-gray-900">
+    <nav className="bg-[#9ff904] border-gray-200 dark:bg-gray-900">
       <div className="max-w-screen-3xl flex flex-wrap items-center justify-between mx-auto p-4">
       <div className="flex space-x-3">
             <img src={Logo} className="h-8 rounded-full animate-spin-slow" alt="Flowbite Logo" />
             <div>
-              <span className="text-2xl font-semibold text-white">The Skilled Network</span>
+              <span className="text-2xl font-semibold text-black">The Skilled Network</span>
               <div className="overflow-hidden w-full">
-                <p className="text-xs animate-slide-horizontal text-white">
+                <p className="text-xs animate-slide-horizontal text-black">
                   Impacting Lives, Empowering Generation...
                 </p>
               </div>
