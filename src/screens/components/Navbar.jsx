@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className="bg-[#9ff904] border-gray-200 dark:bg-gray-900">
       <div className="max-w-screen-3xl flex flex-wrap items-center justify-between mx-auto p-4">
       <div className="flex space-x-3">
-            <img src={Logo} className="h-8 rounded-full animate-spin-slow" alt="Flowbite Logo" />
+            <img src={Logo} className="w-16 h-16 rounded-full animate-spin-slow" alt="Flowbite Logo" />
             <div>
               <span className="text-2xl font-semibold text-black">The Skilled Network</span>
               <div className="overflow-hidden w-full">
