@@ -6,8 +6,8 @@ import Board from './Board';
 
 const Card = () => {
   return (
-    <div>
-    <div className="flex flex-col lg:flex-row items-center justify-center gap-8 px-6 py-10" style={{ fontFamily: 'Inter, sans-serif' }}>
+    <div >
+    <div id="services" className="flex flex-col lg:flex-row items-center justify-center gap-8 px-6 py-10" style={{ fontFamily: 'Inter, sans-serif' }}>
       
       {/* MISSION CARD */}
       <motion.div
@@ -104,7 +104,7 @@ MS Office Suite education.
     <div>
         <img src={Mypic}  className='w-full h-40' alt='picc' />
     </div>
-<Board />
+<Board href="#contact" />
     <div>
         <img src={Downpic}  className='w-full h-40 -mt-3 -z-10' alt='picc' />
     </div>

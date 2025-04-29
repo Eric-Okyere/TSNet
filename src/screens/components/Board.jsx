@@ -47,11 +47,11 @@ const people = [
 
 const Board = () => {
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-center flex-wrap gap-8 px-6 -mt-8" style={{ fontFamily: 'Inter, sans-serif' }}>
+    <div id='contact' className=" flex flex-col lg:flex-row items-center justify-center flex-wrap gap-8 px-6 " style={{ fontFamily: 'Inter, sans-serif' }}>
       {people.map((person, i) => (
         <motion.div
           key={i}
-          className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 z-50"
+          className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 z-10"
           variants={cardVariants}
           initial="hidden"
           animate="visible"

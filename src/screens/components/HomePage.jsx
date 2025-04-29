@@ -4,8 +4,8 @@ import { motion } from 'framer-motion'
 
 const HomePage = () => {
   return (
-    <motion.div
-      className="items-center justify-center md:p-4 w-10/12 ml-10 "
+    <motion.div id="about"
+      className="items-center justify-center md:p-4 w-10/12 ml-10 md:mt-10"
       style={{ fontFamily: 'Inter, sans-serif' }}
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
